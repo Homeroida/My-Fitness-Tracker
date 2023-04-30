@@ -6,17 +6,11 @@
 
 #### To use this application, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Install the required packages by running pip install -r requirements.txt.
-3. Obtain the necessary API keys and tokens:
-
-- Sign up for a free account on [Nutritionix](https://www.nutritionix.com/) and obtain your API ID and API key.
-- Obtain a Google Sheets API token by following the instructions on the [Google Sheets API documentation](https://developers.google.com/sheets/api/guides/authorizing).
-
-4. Create a .env file in the root directory of the project and add the following environment variables:
-   `APP_ID=your_nutritionix_api_id API_KEY=your_nutritionix_api_key SHEET_TOKEN=your_google_sheets_api_token`
-5. Run the application by executing the main.py file in your Python environment (python main.py).
-6. Follow the prompts to enter your workout details and save them to the Google Sheet.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Create a new virtual environment by running the following command in your terminal: python3 -m venv env.
+4. Activate the virtual environment by running the following command in your terminal: source env/bin/activate.
+5. Install the required dependencies by running the following command in your terminal: pip3 install -r requirements.txt.
 
 # Contact
 
